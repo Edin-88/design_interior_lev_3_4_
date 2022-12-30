@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* first area h1 and img */
+.headerDesign {
+    height: 100vh;
+    display: flex;
+}
+
+.textPosition {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.textPosition h1 {
+    position: absolute;
+    top: 50vh;
+    left: 15vw;
+    font-size: 5rem;
+    width: 20vw;
+}
+
+.textPosition p {
+    position: absolute;
+    top: 60vh;
+    left: 13vw;
+    font-size: 1rem;
+    width: 20vw;
+}
+
+.positionRight {
+    position: relative;
+}
+
+.headerImage {
+    position: absolute;
+    height: 100vh;
+    left: 40vw;
+    top: 0vh;
+    width: 58vw;
+}
+
+/* main-blac-section */
+
+.sectionStory {
+    background-color: rgb(46, 46, 46);
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    height: 7vh;
+    width: 8vw;
+}
+
+.sectionStory img {
+    margin-top: 20px;
+}
+
+
+.navFixScroll {
+    padding-right: 70px;
+    margin-top: 20px;
+    word-spacing: 120px;
+}
+
+.navFixScroll a {
+color: white;
+text-decoration: none;
+padding: 0px 40px 20px  0px;
+}
+
+.blackBackround {
+height: 90vh;
+background-color: rgb(46, 46, 46);
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.blackBackround p {
+    color: rgb(246, 246, 246);
+    font-size: small ;
+    line-height: 1.5rem;
+}
+
+.blackBackround h2 {
+    color: rgb(246, 246, 246);
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.storyImage {
+    height: 60vh;
+    width: 50vw;
+}
+
+.storySection p {
+line-height: 2rem;
+padding-right: 100px;
+}
+
+.positionLeft {
+    margin-right: auto;
+}
+
+/* area picture gallery with youtube link */
+
+.sectionPictureGallery {
+    height: 100vh;
+}
+
+.pictureGallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pictureGallery img {
+    width: 30vw;
+    height: 35vh;
+}
+
+.textOverPictureGallery {
+    padding-top: 130px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.textOverPictureGallery p {
+    padding-top: 10px;
+    color: rgb(163, 163, 163);
+}
+
+.textOverPictureGallery h3 {
+    font-size: 2rem;
+}
+
+.video {
+    text-align: center;
+    padding-top: 25px;
+}
+
+/* footer */
+
+footer {
+    height: 90vh;
+    background-color: rgb(46, 46, 46);
+}
+
+.getInTouch h3 {
+    color: rgb(246, 246, 246);
+    padding: 30vh 0vh 3vh 15vw;
+    font-size: 3rem;
+}
+
+.getInTouchText {
+    color: rgb(255, 255, 255);
+    padding-left: 15vw;
+}
+
+
+.getInTouchText2 {
+    color: rgb(255, 255, 255);
+    padding-left: 15vw;
+    padding-top: 3vh;
+    word-wrap: break-word;
+    width: 34vw;
+    line-height: 1.7;
+}
+
+
+/* MEDIA QUERIES WIDTH: 600px */
+
+@media screen and (max-width: 600px) {
+
+
+body {
+    width: 600px;
+}
+
+.textPosition h1 {
+    font-size: 2rem;
+}
+.headerImage {
+    left: 47vw;
+}
+
+
+.navFixScroll {
+    padding-right: 20px;
+    margin-top: 20px;
+    word-spacing: 10px;
+}
+
+.pictureGallery img {
+    width: 30vw;
+    height: 20vh;
+}
+
+.videoSize {
+    height: 25vh;
+    width: 75vw;
+}
+
+.sectionPictureGallery {
+    height: 80vh;
+}
+
+.logo {
+    height: 5vh;
+    width: 5vw;
+}
+.storyImage {
+    height: 40vh;
+    width: 40vw;
+}
+
+.positionLeft {
+    margin-right: 30px;
+}
+
+.blackBackround {
+    height: 60vh;
+    background-color: rgb(46, 46, 46);
+    }
+
+.storySection h2 {
+    text-align: left;
+}
+
+.getInTouchText {
+    color: rgb(255, 255, 255);
+    padding-left: 15vw;
+}
+
+
+.getInTouchText2 {
+    color: rgb(255, 255, 255);
+    padding-left: 15vw;
+    padding-top: 3vh;
+    width: 50vw;
+    line-height: 1.7;
+}
+
+.textOverPictureGallery {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+}
